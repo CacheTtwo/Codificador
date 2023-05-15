@@ -1,10 +1,8 @@
 package Codificadores;
-public class TextoaNumero
+public class TextoaNumero implements Alphabet
 {
-    private  final char[] abececedario="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ 0123456789".toCharArray();
 
-    TextoaNumero(){}
-    public  String Palabracodigo(String Text)
+    public static String  Palabracodigo(String Text)
     {
         int porsia=0, loopy=0;
         boolean varSalida=false;
