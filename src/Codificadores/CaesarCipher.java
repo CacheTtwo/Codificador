@@ -51,6 +51,14 @@ public class CaesarCipher implements Alphabet
         return aux.toString();
     }
 
+    public static String DeCodex(String codificado, int index)
+    {
+        int suma=27-index;
+        return CaesarCipher.Codex(codificado,suma);
+
+
+    }
+
     private  static boolean  esCaracter(char caracter) /*Metodo para simplificar la utilizacion de puntuacion en una frase
     y que mantenga coherencia */
     {
