@@ -7,7 +7,6 @@ public class Main
         System.out.println("Introduzca su mensaje:");
         Scanner obj=new Scanner(System.in);
         String palabra=obj.nextLine();
-        System.out.println(CaesarCipher.alfabeto.length);
-        System.out.println(""+CaesarCipher.Codex(palabra, 12));
+        System.out.println(""+CaesarCipher.Codex(palabra, 6));
     }
 }
