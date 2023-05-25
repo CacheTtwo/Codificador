@@ -6,14 +6,14 @@ public class TextoaNumero implements Alphabet
     {
         int porsia=0, loopy=0;
         boolean varSalida=false;
-        String Aux="";
+        StringBuilder Aux= new StringBuilder();
         int strin=0;
         do
         {
             if (loopy>=65)loopy=0;
             if (abececedario[loopy]== Text.charAt(strin))
             {
-                Aux+=(loopy+1)+" ";
+                Aux.append(loopy + 1).append(" ");
                 loopy=0;
 
                 strin++;
@@ -25,7 +25,7 @@ public class TextoaNumero implements Alphabet
 
         }
         while (varSalida!=true);
-        return Aux;
+        return Aux.toString();
     }
 
 }

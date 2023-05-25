@@ -58,6 +58,13 @@ public class CaesarCipher implements Alphabet
 
 
     }
+    public static void DeCodexBruto(String Codificador)
+    {
+        for (int i=0;i<27;i++)
+        {
+            System.out.println(i+" "+DeCodex(Codificador, i));
+        }
+    }
 
     private  static boolean  esCaracter(char caracter) /*Metodo para simplificar la utilizacion de puntuacion en una frase
     y que mantenga coherencia */
@@ -69,4 +76,6 @@ public class CaesarCipher implements Alphabet
 
         return true;
     }
+
+
 }

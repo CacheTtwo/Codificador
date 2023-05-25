@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb52b50-136e-4366-a812-4874469f20b7" name="Changes" comment="Finalización del cifrado cesar, ahora procesa signos de puntuacion, mayúsculas, minúsculas y tildes.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="9eb52b50-136e-4366-a812-4874469f20b7" name="Changes" comment="Decodificador del cifrado usando el indice utilizado para cifrar, Falta finalizar el metodo de comprobacion bruto">
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Codificadores/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codificadores/CaesarCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codificadores/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codificadores/TextoaNumero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codificadores/TextoaNumero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,11 @@
       <workItem from="1684414257879" duration="68000" />
       <workItem from="1684516723143" duration="1721000" />
       <workItem from="1684707861122" duration="2075000" />
-      <workItem from="1684750310028" duration="13299000" />
+      <workItem from="1684750310028" duration="15002000" />
+      <workItem from="1684860306309" duration="8000" />
+      <workItem from="1684924341464" duration="786000" />
+      <workItem from="1685003558410" duration="13000" />
+      <workItem from="1685053797926" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="Codificadores, proyecto personal que ahora funciona de forma muy basica">
       <created>1684082401658</created>
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684770139282</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Decodificador del cifrado usando el indice utilizado para cifrar, Falta finalizar el metodo de comprobacion bruto">
+      <created>1684790710103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684790710103</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +153,7 @@
     <MESSAGE value="Codificadores, proyecto personal que ahora funciona de forma muy basica" />
     <MESSAGE value="Creacion de una interfaz con los diccionarios para acceder a los valores del alfabeto y Cifrado Cesar" />
     <MESSAGE value="Finalización del cifrado cesar, ahora procesa signos de puntuacion, mayúsculas, minúsculas y tildes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalización del cifrado cesar, ahora procesa signos de puntuacion, mayúsculas, minúsculas y tildes." />
+    <MESSAGE value="Decodificador del cifrado usando el indice utilizado para cifrar, Falta finalizar el metodo de comprobacion bruto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decodificador del cifrado usando el indice utilizado para cifrar, Falta finalizar el metodo de comprobacion bruto" />
   </component>
 </project>
